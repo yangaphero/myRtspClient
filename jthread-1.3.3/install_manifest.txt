@@ -1,0 +1,9 @@
+/usr/local/include/jthread/jmutex.h
+/usr/local/include/jthread/jthread.h
+/usr/local/include/jthread/jmutexautolock.h
+/usr/local/include/jthread/jthreadconfig.h
+/usr/local/lib/libjthread.a
+/usr/local/lib/libjthread.so.1.3.3
+/usr/local/lib/libjthread.so
+/usr/local/lib/cmake/JThread/JThreadConfig.cmake
+/usr/local/lib/pkgconfig/jthread.pc

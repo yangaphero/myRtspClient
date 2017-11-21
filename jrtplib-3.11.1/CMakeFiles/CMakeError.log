@@ -1,0 +1,84 @@
+Determining if the include file sys/filio.h exists failed with the following output:
+Change Dir: /home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41eba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41eba.dir/build.make CMakeFiles/cmTC_41eba.dir/build
+make[1]: Entering directory '/home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_41eba.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_41eba.dir/CheckIncludeFile.cxx.o -c /home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:23: fatal error: sys/filio.h: 没有那个文件或目录
+ #include <sys/filio.h>
+                       ^
+compilation terminated.
+CMakeFiles/cmTC_41eba.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_41eba.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_41eba.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_41eba/fast' failed
+make: *** [cmTC_41eba/fast] Error 2
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: /home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e494e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e494e.dir/build.make CMakeFiles/cmTC_e494e.dir/build
+make[1]: Entering directory '/home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e494e.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_e494e.dir/CheckIncludeFile.cxx.o -c /home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:24: fatal error: sys/sockio.h: 没有那个文件或目录
+ #include <sys/sockio.h>
+                        ^
+compilation terminated.
+CMakeFiles/cmTC_e494e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e494e.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e494e.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e494e/fast' failed
+make: *** [cmTC_e494e/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test JRTPLIB_SNPRINTF_S failed with the following output:
+Change Dir: /home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4608b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4608b.dir/build.make CMakeFiles/cmTC_4608b.dir/build
+make[1]: Entering directory '/home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4608b.dir/src.cxx.o
+/usr/bin/c++     -DJRTPLIB_SNPRINTF_S   -o CMakeFiles/cmTC_4608b.dir/src.cxx.o -c /home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp/src.cxx:1:21: fatal error: windows.h: 没有那个文件或目录
+ #include <windows.h>
+                     ^
+compilation terminated.
+CMakeFiles/cmTC_4608b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4608b.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_4608b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4608b/fast' failed
+make: *** [cmTC_4608b/fast] Error 2
+
+Source file was:
+#include <windows.h>
+#include <stdio.h>
+int main(void) { char s[1024]; _snprintf_s(s, 1024,"%d", 10);
+  return 0; }
+Performing C++ SOURCE FILE Test JRTPLIB_SNPRINTF failed with the following output:
+Change Dir: /home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72c44/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72c44.dir/build.make CMakeFiles/cmTC_72c44.dir/build
+make[1]: Entering directory '/home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_72c44.dir/src.cxx.o
+/usr/bin/c++     -DJRTPLIB_SNPRINTF   -o CMakeFiles/cmTC_72c44.dir/src.cxx.o -c /home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp/src.cxx:1:21: fatal error: windows.h: 没有那个文件或目录
+ #include <windows.h>
+                     ^
+compilation terminated.
+CMakeFiles/cmTC_72c44.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_72c44.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_72c44.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/pi/rtsp/jrtplib-3.11.1/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_72c44/fast' failed
+make: *** [cmTC_72c44/fast] Error 2
+
+Source file was:
+#include <windows.h>
+#include <stdio.h>
+int main(void) { char s[1024]; _snprintf(s, 1024,"%d", 10);
+  return 0; }
